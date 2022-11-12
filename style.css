@@ -42,8 +42,8 @@ input {
 
 .tags {
     display: flex;
-    border: 1px solid red;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .tag {
     background-color: darkred;
@@ -52,5 +52,11 @@ input {
     width: 30%; 
     color: white;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin:10px;
+    margin:20px;
+    transition: all 0.5s;
+
+}
+
+.tag:hover {
+   transform: translateY(-10px) ;
 }
